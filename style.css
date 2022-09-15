@@ -1,0 +1,417 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  overflow-x: hidden;
+}
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  padding-right: 50px;
+}
+.menu li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Roboto' sans-serif;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.menu a {
+  color: #000;
+}
+.menu li {
+  margin-right: 48px;
+}
+ul {
+  margin-left: 332px;
+  margin-top: 39px;
+}
+li:hover {
+  font-weight: 900;
+}
+.telefon {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.telefon:hover {
+  font-weight: 900;
+}
+.log {
+  position: absolute;
+  width: 105px;
+  height: 16px;
+  left: 1256px;
+  top: 8px;
+  padding-right: 38px;
+}
+.nav {
+  background-color: #f2f4f8;
+  width: 1365px;
+  padding-bottom: 40px;
+}
+a[href^="tel:"] {
+  font-size: 12.8px;
+  text-decoration: none;
+  line-height: 32px;
+}
+h1 strong {
+  margin-left: 38px;
+  margin-bottom: 12px;
+  font-family: 'Roboto' sans-serif;
+  margin-top: 45px;
+  margin-bottom: 15px;
+  margin-left: 70px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+}
+h1 span {
+  display: block;
+  font-family: 'Roboto' sans-serif;
+  margin-left: 56px;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 65px;
+}
+h1 {
+  margin-top: 35px;
+}
+.section {
+  background-image: url(/img/carses.jpg);
+  height: 706px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.buti {
+  position: absolute;
+  width: 270px;
+  height: 52px;
+  left: 44px;
+  top: 567px;
+  border-radius: 100px;
+}
+.text-absol {
+  padding-top: 27px;
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+h3 {
+  font-family: 'Roboto' sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  margin-left: 40px;
+}
+.text-cont1,
+.text-cont2 {
+  font-family: 'Roboto' sans-serif;
+  font-weight: 300;
+  width: 400px;
+  font-weight: 400;
+  color: #717784;
+  padding: 16px 15px 18px 25px;
+}
+.absol {
+  background-color: #f2f4f8;
+  padding-bottom: 100px;
+}
+.box1 {
+  padding: 10px;
+  min-width: 400px;
+  margin: 15px;
+  -webkit-box-shadow: 1px 4px 20px 1px rgba(122, 122, 122, 0.25);
+          box-shadow: 1px 4px 20px 1px rgba(122, 122, 122, 0.25);
+  border-radius: 25px;
+  background: #FFFFFF;
+  display: inline-block;
+  margin-top: 75px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.box1:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.box2 {
+  padding: 10px;
+  margin: 15px;
+  max-width: 400px;
+  -webkit-box-shadow: 1px 4px 20px 1px rgba(122, 122, 122, 0.25);
+          box-shadow: 1px 4px 20px 1px rgba(122, 122, 122, 0.25);
+  border-radius: 25px;
+  background: #FFFFFF;
+  display: inline-block;
+  margin-top: 75px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.box2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+h2 strong {
+  margin-left: 38px;
+  margin-bottom: 12px;
+  font-family: 'Roboto' sans-serif;
+  margin-top: 45px;
+  margin-bottom: 15px;
+  margin-left: 33px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+}
+h2 span {
+  display: block;
+  font-family: 'Roboto' sans-serif;
+  margin-left: 33px;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 45px;
+}
+.sections {
+  background-image: url(/img/3813707.jpg);
+  height: 789px;
+  width: 1496px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-sections {
+  padding-top: 77px;
+}
+.butins {
+  width: 270px;
+  height: 52px;
+  border-radius: 100px;
+  margin: 27px 474px 261px 33px;
+}
+.content {
+  margin-left: 230px;
+}
+.customers {
+  background-color: #f2f4f8;
+  padding-bottom: 50px;
+}
+.header-customers {
+  padding-top: 27px;
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+.box4 {
+  padding: 10px;
+  margin: 15px;
+  max-width: 400px;
+  -webkit-box-shadow: 1px 4px 20px 1px rgba(122, 122, 122, 0.25);
+          box-shadow: 1px 4px 20px 1px rgba(122, 122, 122, 0.25);
+  border-radius: 25px;
+  background: #FFFFFF;
+  display: inline-block;
+  margin-top: 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.bmw02-header {
+  background-image: url(/img/bmwm3.jpeg);
+  height: 789px;
+  width: 1496px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bmw02-text {
+  margin-left: 140px;
+  padding-top: 30px;
+  line-height: 70px;
+}
+.butinse {
+  width: 270px;
+  height: 52px;
+  border-radius: 100px;
+  margin: 465px 458px 28px 170px;
+}
+.header-feedback {
+  padding-top: 27px;
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section2 {
+  padding-top: 10px;
+  background-color: #f2f4f8;
+  padding-bottom: 50px;
+}
+.box01 {
+  padding: 10px;
+  margin: 15px;
+  max-width: 400px;
+  -webkit-box-shadow: 1px 4px 20px 1px rgba(122, 122, 122, 0.25);
+          box-shadow: 1px 4px 20px 1px rgba(122, 122, 122, 0.25);
+  border-radius: 25px;
+  background: #FFFFFF;
+  margin-top: 75px;
+  height: 400px;
+  width: 320px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.box01:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.box02 {
+  padding: 10px;
+  margin: 15px;
+  max-width: 400px;
+  -webkit-box-shadow: 1px 4px 20px 1px rgba(122, 122, 122, 0.25);
+          box-shadow: 1px 4px 20px 1px rgba(122, 122, 122, 0.25);
+  border-radius: 25px;
+  background: #FFFFFF;
+  margin-top: 75px;
+  height: 400px;
+  width: 320px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.box02:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.box03 {
+  padding: 10px;
+  margin: 15px;
+  max-width: 400px;
+  -webkit-box-shadow: 1px 4px 20px 1px rgba(122, 122, 122, 0.25);
+          box-shadow: 1px 4px 20px 1px rgba(122, 122, 122, 0.25);
+  border-radius: 25px;
+  background: #FFFFFF;
+  margin-top: 75px;
+  height: 400px;
+  width: 320px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.box03:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.text-feedback2 {
+  margin: 0 16px;
+  font-size: 15px;
+  padding-left: 15px;
+}
+.text-feedback1 {
+  font-weight: normal;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.text-feedback4 {
+  font-weight: normal;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.text-feedback3 {
+  font-weight: normal;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.header-feedback2 {
+  padding-top: 27px;
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+.feedback-wrappers {
+  display: grid;
+  grid-template-columns: repeat(3, 330px);
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  margin-left: 70px;
+}
+.photo1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.photo2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.photo3 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer {
+  background-image: url(/img/BMW_X6-1.jpg);
+  height: 789px;
+  width: 1496px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box4:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
